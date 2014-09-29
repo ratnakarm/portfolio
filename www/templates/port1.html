@@ -1,0 +1,23 @@
+
+<ion-view title="Portfolio1">
+  <ion-nav-buttons side="left">
+    <button menu-toggle="left" class="button button-icon icon ion-navicon"></button>
+  </ion-nav-buttons>
+  <ion-content class="has-header">
+    <div class="list card">
+
+<div ng-repeat="logo in logos" >
+<div class="outer"  >
+    <div class="table">
+    <a ng-href="#/app/port1logo/{{logo.id}}">
+   <img ng-src="{{logo.images[0]}}"/></a>
+    </div>
+    </div>
+
+
+
+
+
+</div>
+  </ion-content>
+</ion-view>
