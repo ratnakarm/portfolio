@@ -48,7 +48,7 @@ angular.module('starter.controllers', [])
   
 })
 .controller('Port1logoCtrl', function($scope, $stateParams, Logos) {  
- $scope.logos = Logos.get($stateParams.logoId);
+ $scope.logo = Logos.get($stateParams.logoId);
 
 })
 .controller('Port3Ctrl', function($scope, $stateParams) { 
